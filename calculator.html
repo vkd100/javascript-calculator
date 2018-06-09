@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>java script - calculator</title>
+	<link href="css/calculator.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<script src="js/calculator.js"></script>
+	<table class="caltable">
+		<tr>
+			<td colspan="6"><h2>Java Script Calculator</h2></td>
+		</tr>
+		<tr class="displayinput">
+			<td colspan="6"><input id="display" maxlength="40" value="0" size="25"></td>
+		</tr>
+		<tr>
+			<td>
+				<table class="caltablebutton">
+				   <tr>
+		                <td><input type="button" value="7" class="btn" onclick="add(7)"></td>
+		                <td><input type="button" value="8" class="btn" onclick="add(8)"></td>
+		                <td><input type="button" value="9" class="btn" onclick="add(9)"></td>
+	       			</tr>
+	           		<tr>
+			            <td><input type="button" value="4" class="btn" onclick="add(4)"></td>
+			            <td><input type="button" value="5" class="btn" onclick="add(5)"></td>
+				        <td><input type="button" value="6" class="btn" onclick="add(6)"></td>
+	           		</tr>
+	   				<tr>
+					    <td><input type="button" value="1" class="btn" onclick="add(1)"></td>
+		                <td><input type="button" value="2" class="btn" onclick="add(2)"></td>
+		                <td><input type="button" value="3" class="btn" onclick="add(3)"></td>
+			        </tr>
+		            <tr>
+					    <td><input type="button" value="+/-" class="btn" onclick="plusminus()"></td>
+					    <td><input type="button" value="0" class="btn" onclick="add(0)"></td>
+					    <td><input type="button" value="." class="btn" onclick="add('.')"></td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table class="caltablebutton">
+					<tr>
+			            <td><input type="button" value="CE" class="btn" onclick="CE()"></td>
+			            <td><input type="button" value="C" class="btn" onclick="clearDisplay()"></td>
+			            <td><input type="button" value="HELP" class="btn" onclick="help()"></td>
+	       			</tr>
+	       			<tr>
+	      	            <td><input type="button" value="*" class="btn" onclick="add('*')"></td>
+			            <td><input type="button" value="/" class="btn" onclick="add('/')"></td>
+			            <td><input type="button" value="%" class="btn" onclick="add('%')"></td>
+	       			</tr>
+	        		<tr>
+			            <td><input type="button" value="+" class="btn" onclick="add('+')"></td>
+			            <td><input type="button" value="-" class="btn" onclick="add('-')"></td>
+			            <td><input type="button" value="1/x" class="btn" onclick="xx()"></td>
+			        </tr>
+			        <tr>
+			       		<td><input type="button" value="=" class="btn" onclick="compute()"></td>
+			            <td><input type="button" value="LOG" class="btn" onclick="log()"></td>
+			            <td><input type="button" value="SQRT" class="btn" onclick="sqrt()"></td>
+			        </tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

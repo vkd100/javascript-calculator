@@ -1,0 +1,21 @@
+input.btn{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    font-size: 15pt;
+}
+
+table h2 {
+	text-align: center;
+}
+
+.caltable {
+	margin: 0 auto;
+	border: 5px solid black;
+}
+.caltablebutton {
+	border: 1px solid black;
+}
+.displayinput {
+	text-align: center;
+}
